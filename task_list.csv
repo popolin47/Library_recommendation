@@ -1,0 +1,1501 @@
+description,source
+Node.js body parsing middleware,top
+Add callbacks to requests in flight to avoid async duplication,top
+The ultimate javascript content-type utility.,top
+Media Type Database,top
+Regular expression for matching ANSI escape codes,top
+A JSON with CSS color names,top
+A querystring parser and serializer with nesting support,top
+Safer Node.js Buffer API,top
+Port of the OpenBSD `bcrypt_pbkdf` function to pure Javascript,top
+easily create complex multi-column command-line-interfaces.,top
+Flatten a multi-dimensional array in JavaScript.,top
+📦 Babel loader for webpack,top
+A ridiculously light-weight function argument validator,top
+Get the visual width of a string - the number of columns required to display it,top
+Process execution for humans,top
+"Normalize file path slashes to be unix-like forward slashes. Used by chokidar, anymatch, and many others!",top
+"🦔 Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env",top
+ANSI escape codes for manipulating the terminal,top
+Wordwrap a string with ANSI escape codes,top
+"Parse, convert, fingerprint and use SSH keys in pure node.js",top
+Get your PATH prepended with locally installed binaries,top
+A cross platform solution to node's spawn and spawnSync,top
+Read the closest package.json file,top
+BigNum in pure javascript,top
+Define multiple non-enumerable properties at once. Uses `Object.defineProperty` when available; falls back to standard assignment in older engines.,top
+Escape RegExp special characters,top
+Determine if an object is a Buffer,top
+User-friendly glob matching,top
+Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar,top
+Port of TweetNaCl cryptographic library to JavaScript,top
+"Iterate over the own enumerable properties of an object, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`.",top
+invariant,top
+Node.js compression middleware,top
+[DEPRECATED] Resolve the source map and/or sources for a generated file.,top
+ECMAScript spec abstract operations.,top
+"Faster brace expansion for node.js. Besides being faster, braces is not subject to DoS attacks like minimatch, is more accurate, and has more complete support for Bash 4.3.",top
+Check if a string has ANSI escape codes,top
+"Assign the enumerable es6 Symbol properties from an object (or objects) to the first object passed on the arguments. Can be used as a supplement to other extend, assign or merge methods as a polyfill for the Symbols part of the es6 `Object.assign` method.",top
+"A smaller version of caniuse-db, with only the essentials!",top
+"ECMAScript ""ToPrimitive"" algorithm. Provides ES5 and ES6/ES2015 versions.",top
+Extract the non-magic parent path from a glob string.,top
+Force V8 to use fast properties for an object,top
+"Is the value an object, and not an array or null?",top
+Extend object A with the properties of object B. node.js/javascript util.,top
+Create an array without duplicates,top
+Callback wrapping utility,top
+Returns an array with only the unique values from all given arrays using strict equality for comparisons.,top
+Fast Elliptic Curve Cryptography in plain javascript,top
+ES2015 `String#codePointAt()` ponyfill,top
+Return an array free of duplicate values. Very fast implementation.,top
+"process.nextTick always accepts args, always",top
+Finds the common standard cache directory,top
+Convert a value to an array,top
+Memoize functions - an optimization technique used to speed up consecutive function calls by caching the result of calls with identical input,top
+Parse JSON with more helpful errors,top
+Delete files and directories,top
+Recursively flatten an array or arrays. This is the fastest implementation of array flatten.,top
+Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow,top
+Promisify a callback-style function,top
+Find a file or directory by walking up parent directories,top
+Deprecate all the things,top
+"(object pick) returns a filtered copy of an object with only the specified keys, exactly like `pick` from lo-dash / underscore.",top
+A static list of the Node.js builtin modules from the latest Node.js version,top
+"Create an array of unique values, in order, from the input arrays",top
+Check if argv has a specific flag,top
+DES algorithm,top
+List of binary file extensions,top
+:muscle: the mighty option parser used by yargs,top
+Create HTTP Errors,top
+Check if the character represented by a given Unicode code point is fullwidth,top
+"Iterate over the enumerable properties of an object, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`.",top
+Node.js final http responder,top
+Align the text in a string. ,top
+PBKDF2 with any supported hashing algorithm in Node,top
+"Fill in a range of numbers or letters, positive or negative, optionally passing an increment or multiplier to use.",top
+Extremely fast HTTP Archive (HAR) validator using JSON Schema,top
+The Node.js `util.deprecate()` function with browser support,top
+Create simple HTTP ETags,top
+Wrapper library for directory and file watching.,top
+Mapping between standard locale identifiers and Windows locale identifiers (LCID),top
+Minimal module to check if a file is executable.,top
+"Find and load configuration from a package.json property, rc file, TypeScript module, and more!",top
+Get the path of the caller module,top
+Convert object keys to camel case,top
+"high speed zlib port to javascript, works in browser & node.js",top
+Yet Another Linked List,top
+"If you use globs, this will make your code faster. Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience. 55+ million downloads. ",top
+":zap: The one-liner node.js http-proxy middleware for connect, express, next.js and more",top
+Get details about the current Continuous Integration environment ,top
+Runs (webpack) loaders,top
+"aes, for browserify",top
+Serve static files,top
+Invert the key/value of an object. Example: {foo: 'bar'} → {bar: 'foo'},top
+Repeat the given string n times. Fastest implementation for repeating a string (2x faster than the native method),top
+"Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by square, webpack, babel core, yarn, jest, ract-native, taro, bulma, browser-sync, stylelint, nyc, ava, and many others! Follow micromatch's author: https://github.com/jonschlinkert",top
+Polyfill for Object.setPrototypeOf,top
+"Faster, bash-like range expansion. Expand a range of numbers or letters, uppercase or lowercase. See the benchmarks.",top
+,top
+DES for browserify,top
+,top
+createSign and createVerify in your browser,top
+Unicode symbols with fallbacks for older terminals,top
+Source code handling classes for webpack,top
+A simple module for bitwise-xor on buffers,top
+Get the command from a shebang,top
+a list of SPDX license identifiers,top
+"Regular expression for matching file names, with or without extension.",top
+Check if something is a Node.js stream,top
+Read and parse a JSON file,top
+abstract base class for crypto-streams,top
+ESLint plugin with rules that help validate proper imports.,top
+Write files in an atomic fashion w/configurable ownership,top
+"Node style hashes for use in the browser, with native hash functions in node",top
+"Node style HMAC for use in the browser, with native implementation in node",top
+parse a url with memoization,top
+Normalize a URL,top
+HTTP status utility,top
+browserify version of crypto.createECDH,top
+Create an array by repeating the given string n times.,top
+Check if a path is inside another path,top
+🐈 CLI app helper,top
+Simple RFC 6838 media type parser and formatter,top
+Create and parse HTTP Content-Type header,top
+Strip UTF-8 byte order mark (BOM) from a string,top
+Check if a file path is a binary file,top
+Returns the next buffer/object in a stream's readable queue,top
+Check if a path exists,top
+[DEPRECATED] Node.js `os.homedir()` ponyfill,top
+Parse HTTP X-Forwarded-For header,top
+Check if a string matches the name of a Node.js builtin module,top
+Read a package.json file,top
+pure js diffie-hellman,top
+Expand POSIX bracket expressions (character classes) in glob patterns.,top
+Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input,top
+Node.js 0.12 path.isAbsolute() ponyfill,top
+Return true if the file is (or the file path has) a dotfile.,top
+Extended globs. Add (almost) the expressive power of regular expressions to glob patterns.,top
+React-specific linting rules for ESLint,top
+,top
+ES2015 `Array#findIndex()` ponyfill,top
+"Encode a URL to a percent-encoded form, excluding already-encoded sequences",top
+,top
+,top
+"Like `fs.createWriteStream(...)`, but atomic.",top
+"Get the native JavaScript type of a value, fast. Used by superstruct, micromatch and many others!",top
+A dictionary of file extensions and associated module loaders.,top
+Get the system locale,top
+Regular expression for matching a shebang line,top
+Create and parse HTTP Content-Disposition header,top
+ES2015 Object.assign() ponyfill,top
+,top
+Perfectly spec-compliant atob and btoa implementations,top
+Toggle the CLI cursor,top
+Center-align the text in a string.,top
+PostCSS plugin to reduce calc(),top
+A CSS Modules transform to extract export statements from local-scope classes,top
+"Answers the question: ""can this value have keys?"". Returns true if a value is any of the object types: array, regexp, plain object, function or date. Useful for determining if a value is an object that can be extended.",top
+Promise based HTTP client for the browser and node.js,top
+abstract base class for hash-streams,top
+"Get a stream as a string, Buffer, ArrayBuffer or array",top
+"JavaScript/Node.js utility. Returns `true` if the value is a number or string number. Useful for checking regex match results, user input, parsed strings, etc. ",top
+Check if a path is the current working directory,top
+Check if a path is in the current working directory,top
+Resolve the path of a module like require.resolve() but from a given path,top
+:ledger: the bare-bones i18n library used by yargs,top
+"Temporarily substitute tokens in the given `string` with placeholders, then put them back after transforming the string.",top
+"Check if a path is a file, directory, or symlink",top
+Determine address of proxied request,top
+"Easily generate random strings like passwords, with simple options for specifying a length and for using patterns of numeric, alpha-numeric, alphabetical, special or custom characters. (the original ""generate-password"")",top
+Runtime type checking for React props and similar objects,top
+Serialize JavaScript to a superset of JSON that includes regular expressions and functions.,top
+ES2015 Number.isNaN() ponyfill,top
+"Memoize the results of a call to the RegExp constructor, avoiding repetitious runtime compilation of the same string and options, resulting in dramatic speed improvements.",top
+Find the root directory of a Node.js project or npm package,top
+Determine if an object is a Node.js Stream,top
+,top
+Alphanumeric sorting algorithm,top
+Get stdin as a string or buffer,top
+[DEPRECATED use memfs instead] A simple in-memory filesystem. Holds data in a javascript object.,top
+ES2015 Number.isFinite() ponyfill,top
+Detect whether or not an object is a Typed Array,top
+random bytes from browserify stand alone,top
+Use acorn to detect global variables in JavaScript,top
+publicEncrypt/privateDecrypt for browserify,top
+"Cache requires to be lazy-loaded when needed. Uses node's own require system with tried and true, plain-vanilla JavaScript getters.",top
+"Get, set, or delete a property from a nested object using a dot path",top
+A window.fetch JavaScript polyfill.,top
+"Does a shallow comparison of two objects, returning false if the keys or values differ.",top
+Make unhandled promise rejections fail loudly instead of the default silent fail,top
+Make a function mimic another one,top
+Get callsites from the V8 stack trace API,top
+handle multiple require hooks ,top
+Is the typeof value a javascript primitive?,top
+ES6 spec-compliant Object.assign shim. From https://github.com/es-shims/es6-shim,top
+HTTP request logger middleware for node.js,top
+Get the PATH environment variable key cross-platform,top
+when you want to fire an event no matter how a process exits.,top
+"Deeply mix the properties of objects into the first object, while also mixing-in child objects.",top
+Embedded JavaScript templates -- http://ejs.co,top
+Basic object store with methods like get/set/extend/omit,top
+[DEPRECATED] Please use https://github.com/webpack-contrib/mini-css-extract-plugin Extracts text from a bundle into a separate file,top
+Indent each line in a string,top
+Get the npm global path prefix. Same code used internally by npm.,top
+Monorepo for the JS language tools.,top
+Utils for working with JavaScript classes and prototype methods.,top
+"Visit a method over the items in an object, or map visit over the objects in an array. This is an alternative approach to using extend or merge, useful when events are emitted on a method like get or set.",top
+node style md5 on pure JavaScript,top
+Streaming node http in the browser,top
+Set nested properties on an object using dot-notation.,top
+🌐 Human-friendly and powerful HTTP request library for Node.js,top
+The map of HTTP status codes from the builtin http module,top
+Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation. Node.js/JavaScript util.,top
+Define a non-enumerable property on an object.,top
+[DEPRECATED] A ESlint loader for webpack,top
+test for inclusion or exclusion of paths using globs,top
+An implementation of the WHATWG URL Standard in JavaScript,top
+An elegant lib that converts the chalked text to HTML.,top
+Gracefully restore the CLI cursor on exit,top
+Like `new Map` but for older JavaScripts,top
+Implements the Web IDL algorithms for converting to and from JavaScript values,top
+Return a copy of an object without the given keys. ,top
+Transforms css values into the tree,top
+Track the list of currently unhandled promise rejections,top
+node.js core url module as a module,top
+Repeat a string - fast,top
+,top
+node helper to execute shell commands,top
+correct invalid SPDX identifiers,top
+parse SPDX license expressions,top
+Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.,top
+Map object keys and values into a new object,top
+Returns true if a value has the characteristics of a valid JavaScript data descriptor.,top
+"Babel plugin to transpile import() to a deferred require(), for node",top
+Like envify but much faster,top
+,top
+Slice a string with ANSI escape codes,top
+Fallback to a default if `process.stdout.getWindowSize` doesn't exist,top
+[DEPRECATED] Tools for working with sourceMappingURL comments.,top
+Parses and stringifies CSS selectors.,top
+Node.js path.parse() ponyfill,top
+Reliable way to to get the height and width of the terminal/console in a node.js environment.,top
+Give me a string and I'll tell you if it's a valid npm package license string,top
+Command line argument parser,top
+Minimalistic utils for JS-only crypto,top
+Map `visit` over an array of objects.,top
+Hash functions in pure javascript,top
+Serve directory listings,top
+"Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but without support for extended globs (extglobs), posix brackets or braces, and with complete Bash 4.3 wildcard support: (""*"", ""**"", and ""?"").",top
+Manipulate the HTTP Vary header,top
+"Split a string on a given character or characters, with support for escaping.",top
+Strip redundant indentation and indent the string,top
+Create an object path (dot notation) from a list or array of strings.,top
+Delete nested properties from an object using dot notation.,top
+Strip leading whitespace from each line in a string,top
+Trim newlines from the start and/or end of a string,top
+"A very simple and stupid parser, based on a statemachine and regular expressions.",top
+Create boxes in the terminal,top
+A Bonjour/Zeroconf protocol implementation in JavaScript,top
+Node's default require extensions as a separate module,top
+Get the length of the longest item in an array.,top
+"Write data to the file system, creating any intermediate directories if they don't already exist. Used by flat-cache and many others!",top
+Check if a URL is absolute,top
+Error: 404,top
+Formats data into a string table.,top
+Error: 404,top
+Try to guess if your terminal supports unicode,top
+Prepend `https://` to humanized URLs like `sindresorhus.com` and `localhost`,top
+,top
+"A CSS selector parser, integrates with postcss but does not require it.",top
+Execute a listener when a response is about to write headers.,top
+ES2017 spec-compliant shim for Object.values,top
+Prettier is an opinionated code formatter.,top
+"Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc.",top
+A regular expression to match all Emoji-only symbols as per the Unicode Standard.,top
+Check if a value is a plain object,top
+Check if a string or buffer is SVG,top
+Generate hashes from javascript objects in node and the browser.,top
+Generate regular expressions from regjsparser’s AST.,top
+"Extends `stats.isDirectory()`, returns `true` if a filepath is a directory.",top
+Detect Node.JS,top
+Parse HTTP request cookies,top
+Check if a value is an object,top
+Basic cache object for storing key-value pairs. Based on MapCache in Lo-dash 3.0,top
+Returns true if the platform is Windows (and Cygwin or MSYS/MinGW for unit tests),top
+Resolve the path of a module like `require.resolve()` but from the current working directory,top
+"Resolve a directory that is either local, global or in the user's home directory.",top
+Right-align the text in a string.,top
+Captures and cleans stack traces.,top
+Generic extension management for WebSocket connections,top
+Turn a CSS color into its smallest representation.,top
+Simple `setImmediate` shim,top
+Detect the dominant newline character of a string,top
+"Parser for the engine.io protocol, used by client and server",top
+Combine an array of streams into a single duplex stream using pump and duplexify,top
+A JS library for predictable global state management,top
+Detect if the current environment is a CI server,top
+Copy files and directories with webpack,top
+"A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations",top
+[deprecated] UglifyJS Plugin,top
+PostCSS plugin for css modules to local-scope classes and ids,top
+Small footprint URL parser that works seamlessly across Node.js and browser environments.,top
+"Querystringify - Small, simple but powerful query string parser.",top
+Pass arbitrary constants between your module files,top
+🔀 Cross platform setting of environment scripts,top
+Search & replace tokens during the linking stage of ICSS loading,top
+Low level multicast-dns implementation in pure javascript,top
+Sort the keys of an object,top
+Return true if a file path contains the given path.,top
+An abstract-encoding compliant module for encoding / decoding DNS packets,top
+Create an array with values that are present in the first input array but not additional ones,top
+Node.js os.homedir polyfill for older versions of node.js.,top
+Get an ArrayBuffer from a Buffer as fast as possible,top
+Converting Number to Fraction with Node.js,top
+Sort CSS declarations fast and automatically in a certain order.,top
+Check if a protocol requires a certain port number to be added to an URL.,top
+"Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster",top
+Lowercase the keys of an object,top
+Use property paths (`a.b.c`) get a nested value from an object.,top
+Fast line to line SourceMap generator.,top
+"normalize a ranged value that wraps. ( i.e. angular range [0-360), where 400 === 40 and -20 === 340)",top
+Create a relative URL with options to minify.,top
+"Returns true if a value exists, false if empty. Works with deeply nested values using object paths.",top
+Parse and stringify mdns service types,top
+Get your internal IP address,top
+Returns the directory used by NPM for globally installed NPM packages.,top
+Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.,top
+Official React bindings for Redux,top
+Regular expression for matching HTML comments,top
+Copies non-react specific statics from a child component to a parent component,top
+The Socket.IO in-memory adapter,top
+Ponyfill for Error#captureStackTrace,top
+"Get a formatted timestamp. Used in gulp, assemble, generate, and many others.",top
+Reduce CSS calc() function at the maximum,top
+Get the latest version of an npm package,top
+Module that helps you write generated functions in Node,top
+A JSONSchema validator that uses code generation to be extremely fast,top
+A write stream constructor that supports a flush function that is called before finish is emitted,top
+Call the given method on each value in the given object.,top
+Get metadata of a package from the npm registry,top
+Get the gzipped size of a string or buffer,top
+Merge designed for webpack,top
+Exclude/warn on duplicated PostCSS plugins.,top
+"snapdragon is an extremely pluggable, powerful and easy-to-use parser-renderer factory.",top
+Measure the difference between two strings with the fastest JS implementation of the Levenshtein distance algorithm,top
+"Reduce function calls in a string, using a callback",top
+Easily add plugin support to your node.js application. ,top
+Encode/decode DNS-SD TXT record RDATA fields,top
+Exports a function for slicing ArrayBuffer without polyfilling,top
+"Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives. Used by superstruct, merge-deep, and many others!",top
+Sourcemap support for gulpjs.,top
+Parses and compiles CSS nth-checks to highly optimized functions.,top
+favicon serving middleware,top
+"Uses a breadth-first search, when necessary, to resolve the file path using the correct casing, and verify that the file actually exists. Returns consistent results regardless of case sensitivity of the file path and/or operating system.",top
+Convert directories to glob compatible strings,top
+A collection of useful stream utility modules for writing better code using streams,top
+Turn any collection of objects into its own efficient tree or linked list using Symbol,top
+PostCSS helpers to throw or output GNU style messages,top
+Convert bytes to a human readable string: 1337 → 1.34 kB,top
+Simple session middleware for Express,top
+Validates whether a string matches the production for an XML name or qualified name,top
+Generate the origin from an URL or check if two URL/Origins are the same.,top
+Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes,top
+"sane aims to be fast, small, and reliable filesystem watcher. No bells and whistles, just change events.",top
+A stricter URI encode adhering to RFC 3986,top
+"Lo-dash's array-clice method. Slices `array` from the `start` index up to, but not including, the `end` index.",top
+Check if your code is running as an npm or yarn script,top
+A Node.js file system walker with a Readable stream interface. Extracted from fs-extra.,top
+Load module from string,top
+📦 Webpack loader for Vue.js components,top
+"Easily add ANSI colors to your text and symbols in the terminal. ansi-colors is the official ansi styling library for gulp. Used by hundreds of projects, including enquirer, vscode, codeql, azure data studio, aws-cdk, redwoodjs, leaflet, mocha, and many others.",top
+Get the diff type of two semver versions: 0.0.1 0.0.2 → patch,top
+Get XDG Base Directory paths,top
+,top
+Get the set npm registry URL,top
+Use Custom Properties in CSS,top
+Tiny utility to de-duplicate lists,top
+"SPDY v2, v3, v3.1 and HTTP2 transport implementation for node.js",top
+ESLint Config for JavaScript Standard Style,top
+Detect if we were run as a result of `npm publish`.,top
+,top
+Non-blocking stdout stream,top
+Prefix CSS,top
+Make your terminal beep,top
+Get available v8 and Node.js flags.,top
+Create the next immutable state by mutating the current one,top
+url.parse() with support for protocol-less URLs & IPs,top
+"Make a shallow clone of an object, array or primitive.",top
+Unique ID Generator,top
+Import a module lazily,top
+Flow types for the Javascript AST,top
+BDD style assertions for node.js -- test framework agnostic,top
+Run some code when the process exits,top
+Get the MAC addresses (hardware addresses) of the hosts network interfaces.,top
+webpack plugin for generating asset manifests,top
+Prepare a node environment to require files with different extensions.,top
+Parses import dependencies from a directory of sass files,top
+Determine the root path to your project,top
+Get the visual width of the widest line in a string - the number of columns required to display it,top
+Topological sorting with grouping support,top
+JS Object representation of a stack frame. ,top
+Tiny but linear growing unique id generator.,top
+Regular expression for matching IP addresses,top
+Merge multiple streams into one stream in sequence or parallel (~119M/month downloads).,top
+Colored symbols for various log levels,top
+Strip block comments or line comments from JavaScript code. ,top
+"Convenience wrapper for ReadableStream, with an API lifted from ""from"" and ""through2""",top
+The closest you can get to require something with bypassing the require cache,top
+ES2019 spec-compliant shim for String.prototype.trimLeft.,top
+ES2019 spec-compliant shim for String.prototype.trimRight.,top
+ESlint Rules for the Standard Linter,top
+A simple javascript utility for conditionally joining classNames together,top
+Parse yes/no like values,top
+Regular expression for matching XML NCName,top
+Additional ESLint's rules for Node.js,top
+"Object of ""void elements"" as defined by the WHATWG HTML Standard.",top
+A Webpack plugin to optimize \ minimize CSS assets.,top
+Next-generation ES module bundler,top
+Run a series of dependent gulp tasks in order,top
+"I created this in 2014, the year I learned how to program. All of the downloads are from an old version of https://github.com/micromatch/micromatch. I've done a few other things since: https://github.com/jonschlinkert.",top
+:watch: Browser shim for Node.js process.hrtime(),top
+Global logging utility.,top
+A better `Stream.pipe` that creates duplex streams and lets you handle errors in one place.,top
+Node.js module to detect available ports of the system.,top
+Transform the first chunk in a stream,top
+Webpack hot reloading you can attach to your own server,top
+⏳ Modern JavaScript date utility library ⌛️,top
+Git hooks made easy 🐶 woof!,top
+"Log things, prefixed with a timestamp.",top
+Import a module like with `require()` but from a given path,top
+Thunk middleware for Redux,top
+A tokenzier for Sass' SCSS syntax,top
+Returns true if a filepath is absolute. The original path-is-absolute.,top
+NOTE: You probably want native promises now,top
+"Check if the process is running as root user, for example, one started with `sudo`",top
+PostCSS plugin to fallback initial keyword,top
+Istanbul Instrumenter Loader,top
+PostCSS plugin to inline at-import rules content,top
+Override HTTP verbs.,top
+"Returns `true` if a file path appears to be relative. Moved from the ""relative"" lib.",top
+"Detect the file type of a file, stream, or data",top
+the Istanbul command line interface,top
+The Promised Node -- a package which promisifies the node standard library.,top
+Import a module like with `require()` but from the current working directory,top
+"Compare semver version strings to find which is greater, equal or lesser.",top
+"Recognizes certain classes of webpack errors and cleans, aggregates and prioritizes them to provide a better Developer Experience.",top
+List of node.js builtin modules,top
+Fixing Node pipes,top
+:page_with_curl: pipe to console - process.stdout in your browser,top
+Iterate all the data in a stream,top
+PostCSS plugin to transform W3C CSS font variant properties to more compatible CSS (font-feature-settings),top
+ES6 spec-compliant RegExp.prototype.flags shim,top
+Detect circular dependencies in modules compiled with Webpack,top
+A mirror of Facebook's Warning,top
+Logger for gulp and gulp plugins.,top
+Replaces a file extension with another one.,top
+Regular expressions for matching against the XML Character Classes,top
+Cross-browser `CustomEvent` constructor,top
+Parse a filepath and return an object of path parts. Falls back on native node.js `path.parse` if it exists ,top
+"🌟 JavaScript Style Guide, with linter & automatic code fixer",top
+"The power of webpack, distilled for the rest of us.",top
+Extend the properties from any number of objects onto the first object. Pass an empty object as the first arg to create a new object.,top
+Check if gulplog is available before attempting to use it,top
+Get the callsite of the caller function,top
+Check if something is a generator function,top
+Find the closest package.json file,top
+Serializes any DOM node into a String,top
+Is the given string an acceptable npm package name?,top
+Let your JS API users either give you a callback or receive a promise,top
+Zip extraction written in pure JavaScript. Extracts a zip into a directory. ,top
+Tweak React components in real time. (Deprecated: use Fast Refresh instead.),top
+yet another unzip library for node,top
+Decompress a HTTP response if needed,top
+A partial implementation of the W3C URL Spec Draft for Node,top
+Apply an async function to each Array element in series,top
+Browserify transform for Babel,top
+Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap,top
+Create ansi colors by passing open and close codes.,top
+A tool for respawning node binaries when special flags are present.,top
+:cyclone: Use conventional text streams at the start of your gulp or vinyl pipelines,top
+Regular expression for testing if a file path is a windows UNC file path. Can also be used as a component of another regexp via the `.source` property.,top
+Remove unnecessary React propTypes from the production build. :balloon:,top
+Webpack plugin for enabling Subresource Integrity.,top
+Utilities for the snapdragon parser/compiler.,top
+Fluent API for Gulp.,top
+"Use Custom Media Queries in CSS, following the CSS Media Queries specification",top
+Like `extend` but only copies missing properties/values to the target object.,top
+This module has moved and is now available at @rollup/plugin-node-resolve / https://github.com/rollup/plugins/blob/master/packages/node-resolve,top
+A module which will endeavor to guess your terminal's level of color support.,top
+Writing simple and graceful Media Queries!,top
+Use Custom Selectors in CSS,top
+:confetti_ball: Blazing fast unique hash generator,top
+Synchronously write a file and create its ancestor directories if needed,top
+PostCSS plugin to transform :matches() W3C CSS pseudo class to more compatible CSS (simpler selectors),top
+PostCSS plugin to transform :not() W3C CSS level 4 pseudo class to more compatible CSS (multiple css3 :not() selectors),top
+Find a file given a declaration of locations.,top
+Karma webpack Middleware,top
+🌶️ Hot reload API for Vue components,top
+Check if a value is a regular expression,top
+Development-only error handler middleware,top
+"Standalone denodeify, for all of your callback -> promise needs.  Just drop in an ES6 complaint promise library & stir",top
+"strong-globalize is built on Unicode CLDR and jquery/globalize and implements automatic extraction of strings from JS source code and HTML templates, lint the string resource, machine-translate them in seconds.  In runtime, it loads locale and string resource into memory and provides a hook to persistent logging.",middle
+ A Webpack loader that enables string-based module loading with the Angular Router,middle
+Unpack a browser type and version from the useragent string,middle
+Check if the internet connection is up,middle
+hack into vue-loader,middle
+Minifies blocks of JSON-like content into valid JSON by removing all whitespace and comments.,middle
+LoopBack passport integration to support third party logins and account linking,middle
+Simple rollup plugin for minifying code using babel-preset-minify.,middle
+Strips comments from code,middle
+Build your commands on minimist!,middle
+Jade renderer for Hexo. Replaced by https://github.com/hexojs/hexo-renderer-pug,middle
+Http assertions for should.js,middle
+Auto-generate JS class structures for Web IDL specifications,middle
+Utilities for CLI plugins,middle
+Common TypeScript lint rules/preferences for Ionic.,middle
+Beautiful and accessible drag and drop for lists with React,middle
+Simple commandline interface to allow you to run cli or bash style commands as if you were in the terminal.,middle
+Beautify CSS files.,middle
+Utility that provides a single API for loading the content of a path/URL.,middle
+The up-to-date and reliable Google's libphonenumber package for node.js.,middle
+Write html files to hard disk even when using the webpack dev server or middleware,middle
+Slice GeoJSON into vector tiles on the fly in the browser,middle
+Merge svgs from a folder,middle
+Social media share buttons and share counts for React,middle
+NodeJS Core Module,middle
+[deprecated] can be replaced with i18next-http-backend,middle
+ᕙ༼ຈل͜ຈ༽ᕗ,middle
+Use connect and express middleware in koa,middle
+:dizzy: Create a modified babel preset based on an an existing preset.,middle
+Sort stream by path name using a natural sort,middle
+"Advanced streaming http request proxy middleware for Express with support for custom routes, caching, and response transforms.",middle
+Gulp plugin to run tasks in multiple gulpfiles,middle
+Bitcoin Wallet Import Format JS encoding/decoding module,middle
+Simple module to infer the root directory of the currently running node application,middle
+node.js library for Xcode simctl utility on macOS,middle
+Base tests for every PostCSS CSS parser,middle
+Protractor screenshot reporter for Jasmine2,middle
+Levenshtein edit distance,middle
+"Multiple, simultaneous, individually controllable spinners for concurrent tasks in Node.js CLI programs",middle
+Effortless animation between DOM changes (eg. list reordering) using the FLIP technique.,middle
+A simple React component that is resizable with a handle. ,middle
+"Yet another changelog generator from git commits, based on conventions and with an optional hook to enforce the rules",middle
+"Read a protobuf schema from the disk, parse it and resolve all imports",middle
+"Check permissions using Shiro-like strings, put in a trie.",middle
+🐱 concatenate files,middle
+Minify images seamlessly,middle
+Wrapper for using css-inline-images in Gulp,middle
+"A declarative, HTML-based language that makes building web apps fun",middle
+"Parses expressions like 1-10,20-30. Returns an energetic array.",middle
+Convert streams (readable or writable) to promises,middle
+A Gulp module to push a given folder to a subtree,middle
+A CLI for the node-lintspaces module.,middle
+"gl-matrix's mat4, split into smaller pieces",middle
+:hamburger: An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path animations,middle
+Store enhancer that syncs (a subset) of your Redux store state to localstorage.,middle
+Simplest (:pray:) way to reload an electron app on file changes!,middle
+Clone a git repository,middle
+autod egg plugin,middle
+"Simple, intuitive and flexible unit testing framework for javascript / Node.js. Integrates the great assertions libraries Must.js, Should.js, Assert of Node.js, Sinon.js and other friendly features.",middle
+"Inlines img, script and link tags into the same file",middle
+Sets up the default configuration for the aurelia framework and gets you up and running quick and easy.,middle
+Visualize flow between nodes in a directed acyclic network.,middle
+Test-framework-agnostic helpers for testing Ember.js applications,middle
+"JHipster Domain Language, used by JHipster UML and JDL-Studio to generate entities",middle
+"Slug generator with less than 1 KB and no dependencies, RFC 3986 compliant",middle
+Superseded by abstract-level. An abstract-leveldown implementation that wraps another store to encode keys and values.,middle
+gulp.js wrapper for html5-lint,middle
+A packing algorithm for 2D bin packing. Largely based on code and a blog post by Jake Gordon.,middle
+A simple way to mount React components ,middle
+A standalone point geometry primitive.,middle
+WHATWG fetch ponyfill,middle
+A linter for code styling. Ensures code is written in a beautiful way.,middle
+,middle
+Strip comments from CSS,middle
+"A simple tool for grabbing the top contributors for a repo from github, with some convenient options.",middle
+Resizable dockable react component,middle
+"convert img to base64, or convert base64 to img",middle
+node security project npm utilities,middle
+Get the most recent git semver tag of your repository,middle
+Apache Cordova Tooling Library,middle
+"UTF-8 to ASCII transliteration / slugify module for node.js, browser, Web Worker, React Native, Electron and CLI.",middle
+Automated memory leak detection and analysis,middle
+A tiny async loader / dependency manager for modern browsers (961 bytes),middle
+:octopus: Decorate yargs content with chalk styles and figlet fonts,middle
+reschedulable setInterval for node.js,middle
+Animate One React Element,middle
+jsDoc plugin adapter for gulp,middle
+Gulp plugin for power-assert,middle
+Remove unused CSS. Also works with single-page apps.,middle
+A NodeJS Discord library,middle
+Git/Subversion/Mercurial repository metadata parser,middle
+A bridge between node and PhantomJS,middle
+,middle
+Abbreviation (<abbr>) tag plugin for markdown-it markdown parser,middle
+NodeJS package that gives a simplier API to npm install (programatically installs things),middle
+Hot Module Replacement plugin for Browserify,middle
+Session file store is a provision for storing session data in the session file,middle
+A validator for checking different kinds of whitespaces in your files.,middle
+Animations & transitions for ambitious Ember applications.,middle
+Passport middleware for Koa,middle
+Template helper for including a code coverage report generated by istanbul.,middle
+A library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint.,middle
+A package to help with webpacking NativeScript apps.,middle
+64bit Long Integer on Buffer/ArrayBuffer in Pure JavaScript,middle
+"Join urls or system paths, even with undefined values.",middle
+"A draggable and resizable grid layout with responsive breakpoints, for React.",middle
+meanio core module,middle
+Autoload your scripts.,middle
+Jasmine-jquery plugin for Jasmine in Karma,middle
+Split a readable stream by newline characters,middle
+Cross-browser element.classList,middle
+Start a php server with gulp,middle
+Transform stream that gunzips its input if it is gzipped and just echoes it if not,middle
+JavaScript implementation of multiaddr,middle
+<Sticky /> component for awesome React apps,middle
+Extract HTML text in your gulp pipeline.,middle
+Compile a single file Vue component into a CommonJS module.,middle
+libp2p Peer abstraction Node.js implementation,middle
+"Companion code to the ""How to Write a Google Maps React Component"" Tutorial",middle
+Tag for Verb. Uses js-comments to parse JavaScript code comments and generate API documentation.,middle
+DEPRECATED jQuery Responsive Carousel.,middle
+A Nodejs asset manager that easily allows you to switch between development and production css and js files in your templates by managing them in a single json file that's still compatible with grunt cssmin and uglify. ,middle
+"Find a file, starting with the given cwd and recursively searching up one directory until it's found (or we run out of directories). Async and sync.",middle
+Generate fixture modules from folders,middle
+Definition list (<dl>) tag plugin for markdown-it markdown parser ,middle
+Generate random token strings,middle
+,middle
+Return `true` if a string ends with the given characters.,middle
+Grunt task that checks various aspects of a web page for correctness.,middle
+Default Squirrel.Windows event handler for your Electron apps.,middle
+complete type checking for node,middle
+A grunt task that starts a http server that can be called to run tasks,middle
+ESLint rules for lodash,middle
+A set of React components implementing flexboxgrid with the power of CSS Modules.,middle
+Animate on scroll library,middle
+Prefix all CSS rules with a selector,middle
+A command line tool for easily doing prebuilds for multiple version of node on a specific platform,middle
+simple date math module,middle
+A Minimalistic Wrapper for IndexedDB,middle
+Command Line UI toolkit for Node.js,middle
+Animate React Component in queue,middle
+A Gulp plugin for wrapping files with custom strings.,middle
+"Run programs with glob/globstar support, especially on Windows within npm scripts.",middle
+Command line interface for Hexo,middle
+Markdown-It support for JSTransformers.,middle
+Gulp plugin to enforce coverage levels from istanbul coverage report,middle
+browserify transform that exposes globals added via a script tag as modules so they can be required.,middle
+,middle
+:surfer: Asynchronous flow control with a functional taste to it,middle
+Run Python scripts from Node.js with simple (but efficient) inter-process communication through stdio,middle
+Wait for multiple events,middle
+Handy Moment.js filters for your Vue.js project.,middle
+This DOES NOT WORK any more. This repo only serves as an archive for is anyone wants to pickup my work. You may still join the discord however.,middle
+A Node.js wrapper for Spotify's Web API.,middle
+A polyfill for Ember.assign in <= 2.4,middle
+Simulates a global browser environment using jsdom,middle
+Maps lines and columns to character offsets and back.,middle
+peer-id implementation in JavaScript. Deprecated; use https://github.com/libp2p/js-libp2p-peer-id instead.,middle
+"The Aurelia 1 command line tool. Use the CLI to create projects, scaffold components, and bundle your app for release.",middle
+"Browserify transform to strip everything from package.json except for the ""version"" field.",middle
+Phase management for LoopBack applications.,middle
+Automatically install dependencies for your atom packages,middle
+"Easily calculate the relative path from file A to file B in Node.js project. Will calculate correctly from a file to a directory, file to file, directory to file, and directory to directory.",middle
+:cocktail: prettifies ndjson from wzrd and similar tools,middle
+React proptype validator for moment.js,middle
+Create a stream from a string. Sugary wrapper around from2,middle
+Babel preset to make node@5 fully ES2015 compatible,middle
+Detect es6 features enable or not.,middle
+Capitalize every word in string: unicorn cake → Unicorn Cake,middle
+:earth_asia: Cross-platform browser event handling,middle
+"Convert JSON objects into directory structures in the file system, and back again.",middle
+React Mobile Picker(web & react-native),middle
+React.js Responsive Carousel (with Swipe),middle
+A Underscore and Lodash template loader for Webpack,middle
+Easily manage gh-pages of your ember-cli addon,middle
+"A module that shallow copies an object,  ignoring keys depending on the filter object passed to it.",middle
+Identifies accessibility issues in your React.js elements,middle
+try/require mechanism to conditionally load a module using require.,middle
+Simple wrapper around esformatter to beautify javascript files overriding the content of the files,middle
+jpeg-recompress bin-wrapper that makes it seamlessly available as a local dependency,middle
+"Determine the best order for running async functions, LIKE MAGIC!",middle
+PostCSS plugin to add opacity filter for IE8 and legacy browsers,middle
+A Promise-based JavaScript wrapper library for working with Git CLI,middle
+Bili makes it easier to bundle JavaScript libraries.,middle
+"Load config from .{product}rc.{json,yml,js} file",middle
+"Precise, powerful and fast JS Coverage tool",middle
+React Mobile DatePicker(web & react-native),middle
+"The best of both `JSON.stringify(obj)` and `JSON.stringify(obj, null, indent)`.",middle
+A React Higher Order Component (HOC) for handling Authentication and Authorization with Routing and Redux,middle
+"gl-matrix's vec3, split into smaller pieces",middle
+Returns the parent directory common to each path,middle
+Mutate keys and values in Javascript objects,middle
+Checks various aspects of a web page for correctness.,middle
+Development assistant for node.js server by gulp,middle
+multihash implementation in JavaScript,middle
+IceCap - Programmable DOM-based HTML template library.,middle
+🌳 Write CSS inside your React components!,middle
+"Help command for node, partner of minimist and commist",middle
+"Copy files using glob patterns. Sync, async, promise or streams. (node.js utility)",middle
+Grunt plug-in to compile .po files into binary .mo files with msgfmt.,middle
+A middleware-style generic resource loader built with web games in mind.,middle
+List of SPDX licenses,middle
+Transform stream that lets you peek the first line before deciding how to parse it,middle
+Create property accessor statements for dot paths,middle
+Convert a directory tree to a JS object.,middle
+Run async mocha specs in parallel,middle
+Add a git-like command interface to your app.,middle
+"Simplifies the testing of UI components by providing an elegant, fluent interface for arranging test setups along with a number of runtime debug/test helpers.",middle
+Command-line version incrementer,middle
+Check whether a package or organization name is available on npm,middle
+Gulp task for converting all data found within a stylesheet (those within a url( ... ) declaration) into base64-encoded data URI strings,middle
+Plugin for webpack to cleanup the output path,middle
+Renders static content efficiently by allowing React to short-circuit the reconciliation process.,middle
+"Execute async code in chronological order. The sequence module of FuturesJS (Browser, Node.js, Bower, and Pakmanager)",middle
+A complete and totally customizable component for notifications in React,middle
+"parses number and unit, '20px' into [20, 'px']",middle
+This module has moved and is now available at @rollup/plugin-multi-entry / https://github.com/rollup/plugins/blob/master/packages/multi-entry,middle
+esformatter plugin: enforces coding style that string literals are delimited with single or double quotes,middle
+Check if function is an ES6 class.,middle
+This micro-lib allows you to alter the $PATH in a cross-platform way.,middle
+Programming language compiling to JavaScript,middle
+zopflipng bin-wrapper that makes it seamlessly available as a local dependency,middle
+"Reactive, responsive, beautiful charts for AngularJS using Chart.js: http://jtblin.github.io/angular-chart.js",middle
+A Quill component for React.,middle
+Run gulp tasks through declarative Grunt config,middle
+Simple/dumb promise wrapper for superagent ,middle
+A noop logger interface for Node.js modules,middle
+This is an Express view engine which renders React components on server. It renders static markup and *does not* support mounting those views on the client.,middle
+Important security headers for koa,middle
+"The Aurelia 1 framework entry point, bringing together all the required sub-modules of Aurelia.",middle
+"Sophisticated meta programming in JavaScript, e.g. to build different versions of a library from a single source tree.",middle
+encode/decode number as bitcoin variable length integer https://en.bitcoin.it/wiki/Protocol_documentation#Variable_length_integer,middle
+2x faster than JSON.stringify(),middle
+Run AppleScript and get the result,middle
+Gulp plugin for postprocess CSS with ease,middle
+"require()-able HTML, CSS, and (potentially) more",middle
+Use CSS-in-JavaScript with themes for React without being tightly coupled to one implementation,middle
+"Parse a torrent identifier (magnet uri, .torrent file, info hash)",middle
+Prometheus client for node.js,middle
+Include AngularJS templates in the Webpack bundle and preload the template cache.,middle
+A streams2 duplexer.,middle
+Helper for installing hooks into NativeScript projects,middle
+Parses vector tiles with JavaScript,middle
+"all babel es2015 plugins, with loose modules enabled",middle
+Ember CLI addon adding support for sinon.js,middle
+Inline linked css in an html file. Useful for emails.,middle
+React wrapper for Highcharts library,middle
+Mocha test reporter based on fivemat and the built in progress reporter,middle
+A lightweight JavaScript library for creating particles,middle
+"Creates a true array based on `arraylike`, starting at `startIndex`.",middle
+A utility to provide LRU memoization for any js function,middle
+A simpler (and smaller) rewrite of Google Android's libphonenumber library in javascript,middle
+Get the gzipped size of a file or stdin,middle
+bitcoin OP codes,middle
+Coverage analysis for Protractor tests,middle
+Reindent and reformat CSS,middle
+find process by port/pid/name etc.,middle
+Karma launcher and preprocessor for Electron,middle
+CLI options helper and usage printer,middle
+"Function containerizer for Node.js.  (The engine behind actions2, helpers, and shell scripts in Sails.)",middle
+require() .toml files in Node.js,middle
+"Power Assert instrumentor from code to code, with SourceMap.",middle
+":lock: Secure Hapi.js authentication plugin using JSON Web Tokens (JWT) in Headers, URL or Cookies",middle
+Populates your module's package.json's version property from semvery git tags,middle
+"Make a readable stream by input content, content could be `String`, `Buffer`, `Object`, `Number` and so on.",middle
+Get the correct trash path on Linux,middle
+A table of contents plugin for Markdown-it ,middle
+An implementation of the abstract Animator interface from templating which enables css-based animations.,middle
+Universal data access layer for web applications.,middle
+Simple fuzzy search,middle
+Koa middleware for validating JSON Web Tokens,middle
+"The sync version of tmp just for test cases, making it much easier.",middle
+Standard linter for gulp,middle
+JavaScript file system utilities,middle
+Fast Pure JavaScript MessagePack Encoder and Decoder / msgpack.org[JavaScript],middle
+Pug's CLI interface,middle
+Official command framework for discord.js,middle
+,middle
+ESLint shareable config version of felixge/node-style-guide,middle
+PostCSS plugin for exposing JavaScript functions,middle
+"url() plugin for rework, formerly included in core",middle
+Node.js client library for Actions on Google,middle
+:haircut: Delete old fingerprinted files,middle
+ :hourglass: easy to use progress-bar for command-line/terminal applications,middle
+Command line options parser,middle
+Very thin wrapper around js-yaml for directly reading in YAML files.,middle
+"An advanced Node.js driver for RethinkDB with a connection pool, support for streams etc.",middle
+Test command line on Node.js,middle
+Use external SVG spritemaps today,middle
+text summary of code coverage for Mocha,middle
+:ghost: Run Tape tests in Gulp.,middle
+Prefix CSS using Autoprefixer,middle
+This is a polyfill for Buffer#indexOf introduced in NodeJS 4.0.,middle
+Karma plugin to report test results in TAP.,middle
+A ReactJS component that creates a pagination,middle
+Convert character code getters into plain integers.,middle
+LoopBack Swagger Spec Integration,middle
+Gulp plugin to only pass through changed files,middle
+Strip Markdown stuff from text. 1.5m+ downloads / month,middle
+Adds console.table method that prints an array of objects as a table in console,middle
+Array extras for regular expressions,middle
+➖ high level way to create menubar desktop applications with electron,middle
+Generates swagger/openapi specification based on jsDoc comments and YAML files.,middle
+A <Modal/> component for react-native,middle
+JavaScript/Node.js client for Globalization Pipeline,middle
+Modern Telegram Bot Framework for Node.js,middle
+A performance conscious library for merkle root and tree calculations.,middle
+Get free disk space info from `df -kP`,middle
+Check if async/await is available natively,middle
+Browserify transform to replace placeholder with package version,middle
+Run ESLint in mocha tests,middle
+Normalize the newline characters in a string to `\n`,middle
+"A lightweight,  extensible dependency injection container for JavaScript.",middle
+Platform agnostic user home directory path resolution for Node.js.,middle
+A simple SHA-256 / SHA-224 hash function for JavaScript supports UTF-8 encoding.,middle
+Side menu component for React Native,middle
+React renderer for CommonMark (rationalized Markdown),middle
+ember-cli addon for easily loading CommonJS packages from npm via browserify.,middle
+Parse templates to html loader for webpack,middle
+Command line tool for generating a changelog from git tags and commit history,middle
+<mark> tag plugin for markdown-it markdown parser,middle
+,middle
+babel-preset-es2015-without-strict,middle
+Webpack Loader for the Sass version Twitter Bootstrap,middle
+Check if your code is running on Travis,middle
+Gulp plugin for stylus stylint linter,middle
+PostCSS plugin to transform CSS Custom Properties(CSS variables) syntax into a static representation,middle
+Node.js client library for Google Maps API Web Services,middle
+A deployment pipeline for Ember CLI apps,middle
+Helper for implementing advanced search features with Algolia,middle
+Node.js framework for creating command line applications,middle
+"Elegant, accessible toggle component for React. Also a glorified checkbox.",middle
+A sidebar component for React,middle
+Increment and update version in all project files,middle
+Yet another prepush script that will run tasks defined in a config file,middle
+A React.js component for using @desandro's Masonry,middle
+Cross-Origin Resource Sharing(CORS) for koa,middle
+Parse and stringify JSON with comments. It will retain comments even when after saved!,middle
+A set of opinionated ESLint (http://eslint.org) rules (all rules included) tailored for React projects,middle
+encode/decode number as bitcoin pushdata integer ,middle
+Temporary files and directories in Node.js,middle
+Core modules for the Contentful JS SDKs,middle
+This repo isn't maintained anymore as phantomjs got dreprecated a long time ago. Please migrate to headless chrome/puppeteer.,middle
+Grunt plugin for Sass Lint,middle
+Clean up mocha stack traces,middle
+"Test suite for compliance with ECMA-262 Promise (6th Edition, Draft Specification)",middle
+Seamless integration between Rollup and Istanbul,middle
+"A module to create readable `""multipart/form-data""` isomorphically in node and the browser.",middle
+Log execution time for each plugin in a PostCSS instance.,middle
+ESLint configurations and additional rules for me,middle
+"Provides boundary functions, (upper-bound and lower-bound).",middle
+Allows splitting your grunt task configuration into separate files,middle
+"Simple data persistence for your Electron app or module - Save and load user preferences, app state, cache, etc",middle
+Remote gulp.src,middle
+Checks an instanbul coverage report against thresholds,middle
+Higher Order Component that provides click outside functionality,middle
+Builds a babel configuration for rollup-plugin-babel by reading .babelrc.,middle
+Babel preset for all power-assert plugins,middle
+"The libp2p crypto primitives, for Node.js and the Browser!",middle
+DataStax Node.js Driver for Apache Cassandra,middle
+Globbing preloader for Webpack,middle
+A simple middleware-style router for isomorphic JavaScript web apps,middle
+Simple and non-recursive JSON parse/stringify library,middle
+:rocket: Simple way to control your Slack Bot,middle
+"UNMAINTAINED, use https://github.com/FullHuman/purgecss-webpack-plugin",middle
+[SEEKING MAINTAINER] An HTTP/2 and ES6 Module-ready Koa Suite,middle
+"Animated collapsible component for React Native, good for accordions, toggles etc",middle
+LeanCloud JavaScript SDK,middle
+A rollup plugin to show the size of the generated bundle(s).,middle
+"Lightweight methods for reading from the file system, async and sync, with extras for stripping byte order marks and normalizing newlines.",middle
+Assertion library for streams,middle
+"A fast, small and flexible CSS parser.",middle
+Fast and almost Gaussian blur,middle
+A utility to wrap many copies of a single Redux reducer into a single key-based reducer.,middle
+:recycle: higher order reducer to add undo/redo functionality to redux state containers,middle
+Encourages programming with assertions by providing tools to compile them away.,middle
+ESLint configuration for projects that I do... Feel free to use this!,middle
+Library for converting Draftjs editor content state to HTML,middle
+jpegoptim bin-wrapper that makes it seamlessly available as a local dependency,middle
+Color themes for Redux DevTools monitors,middle
+jpeg-recompress imagemin plugin,middle
+Npm module for Node JS that reads the first line of a file,middle
+karma xml reporter for jenkins,middle
+Module to hook into the Node.js require function,middle
+ECMAScript CallExpression matcher made from function/method signature,middle
+Common Gulp tasks I use across my React Component projects,middle
+:package: Easily write and read user settings in Electron apps,middle
+inject live reload into HTML content,middle
+Node.js module to parse function arguments.,middle
+"Add classes, identifiers and attributes to your markdown with {} curly brackets, similar to pandoc's header attributes",middle
+,middle
+a synchronous prompt for node.js,middle
+"function() plugin for rework, formerly included in core",middle
+Parse mongodb connection strings.,middle
+Babel preset to make node@6 fully ES2015 compatible.,middle
+Generate a changelog based on merged pull requests or commit messages,middle
+Generate an HTML5 Application Cache for a Webpack build,middle
+Automatically run your styles through autoprefixer,middle
+List of Markdown file extensions,middle
+PostCSS plugin to reference an SVG file and control its attributes with CSS syntax,middle
+An HTTP Client based on the Fetch standard.,middle
+Deeply assign the enumerable properties of source objects to a destination object.,middle
+npm module of Google Map utility's Marker With Label,middle
+A lightweight pub/sub messaging system for app-wide or per-object loosely coupled events.,middle
+a CLI tool to easily deploy your current working branch to GitHub Pages,middle
+🔒 Prevent scroll on the <body />,middle
+JavaScript implementation of the IPLD dag-cbor format.,middle
+Returns true if a windows file path does not contain any invalid characters.,middle
+Unescape special characters encoded by JavaScript escape sequences,middle
+Mongoose plugin to enable deep population of nested models ⛺,middle
+"Extract css class names from required css module files, so we can render it on server.",middle
+npm installer for NW.js,middle
+A super simple & flexible & useful config module.,middle
+A library to store and restore window sizes and positions for your Electron app,middle
+Konva.js is an HTML5 Canvas JavaScript framework that extends the 2d context by enabling canvas interactivity for desktop and mobile applications.,middle
+Browserify transform for unassert: Encourages programming with assertions by providing tools to compile them away.,middle
+Merge defaults opts with cli or api,middle
+generate sha1 hashes in node and the browser,middle
+Run AVA tests,middle
+The extensible select component built for ember.,middle
+PostCSS plugin to replace easing names to cubic-bezier(),middle
+Returns true if a windows file path has invalid characters.,middle
+"A loader for webpack, rollup, babel that loads svg as a React Component",middle
+Node API to control Firefox,middle
+🔽 A dead simple dropdown component for React,middle
+Aurelia's Platform Abstraction Layer,middle
+UTF-safe string operations in JavaScript.,middle
+Localization plugin for vue.js 2.0 using vuex as store,middle
+Library to make it easy to listen for element resize events,middle
+The open source frontend for GitBook doc sites,middle
+Run Webpack compiler as Express.js/Browsersync middleware,middle
+Get a random item from an array,middle
+Lodash as ES6 Modules for Ember.js Apps,middle
+A simple worker-manager for clustered Node.js apps,middle
+🎥    Isomorphic JavaScript client for the Giphy.com API,middle
+"wangEditor, open-source Web rich text editor 开源 Web 富文本编辑器",middle
+This library will help you to detect if the intl is right-to-left language,middle
+Execute CLI Statements based upon Opt-In / Opt-Out Rules.,middle
+Convert PNG to ICO in memory,middle
+A Node.js interface to the Elm compiler binaries.,middle
+:hammer: Build tool based on webpack.,middle
+The Official Dropbox API V2 SDK for Javascript,middle
+Craft command-line masterpieces in Node.js,middle
+"A browser based, platform agnostic mobile application development and testing tool.",middle
+Progress indicators and spinners for React Native,middle
+A higher order React component and allows mapping prop values passed in to other prop values expected by the wrapped component,middle
+A powerful client-side router.,middle
+〰 A gulp plugin that renders mustache templates,middle
+,middle
+Process html files at build time to modify them depending on the release environment,middle
+hapi extension to enable CORS,middle
+A modern databinding library for JavaScript and HTML.,middle
+sprintf post processor for i18next,middle
+"A standard set of behaviors, converters and other resources for use with the Aurelia templating library.",middle
+React component for syntax highlighting,middle
+Navbar component for React Native,middle
+Assert values using Joi schemas,middle
+Reduce files to one single output using custom callbacks.,middle
+":leaves: Touch, responsive, flickable carousels",middle
+Runs elm-test suites from Node.js. Get it with npm install -g elm-test,middle
+ Use TypeScript in your Ember.js apps!,middle
+Relocatable regular expressions.,middle
+➷ A robust Javascript library for capturing keyboard input. It has no dependencies. ,middle
+[DEPRECATED] Compose generator and async/await middleware,middle
+Shallow deep equal for chai,middle
+Component-wrapper for collapse animation with react-motion for elements with variable (and dynamic) height,middle
+An express.js middleware for node-validator ,middle
+JSON over HTTP: A simple wrapper around hyperquest for dealing with JSON web APIs,middle
+Turn module ids into global lookups that work in Node and the browser,middle
+"Project status: NOT MAINTAINED; Checks that you are using the existent css/scss classes, no more no less",middle
+Function composition,middle
+Karma plugin for using SystemJS as a module loader,middle
+Hexo (https://hexo.io/) plugin to generate a JSON file for generic use or consumption with the contents of posts and pages.,middle
+Add the opportunity to import modules by the root path,middle
+Client-side javascript validator library ports from Laravel 5.2,middle
+Convert a camelized/dasherized/underscored string into a humanized one: fooBar-Baz_Faz → Foo bar baz faz,middle
+Browserify plugin to prepend license header to your bundle,middle
+"call your callbacks in a waterfall, at speed",middle
+,middle
+babel 6 plugin which allows to use webpack resolve options,middle
+Superscript (<sup>) tag plugin for markdown-it markdown parser ,middle
+converts your code into Standard JavaScript Format,middle
+Binary wrapper for Hugo,middle
+An opinionated collection of ESLint rules used by GitHub.,middle
+Hammer.js wrapper for Vue.js,middle
+Peerigon coding rules as eslint config,middle
+"Get the arguments of a function, arrow function, generator function, async function",middle
+Check if a string of code requires a specified Node module by id,middle
+Render React children with a separator,middle
+A utility to create comparator functions for the native `Array.sort()`.  Allows for sorting by multiple properties.,middle
+Parse a gitignore file into an array of patterns. Comments and empty lines are stripped.,middle
+HTTP Content-* headers parsing,middle
+Get the mount point for a file,middle
+Like `extend` but recursively copies only the missing properties/values to the target object.,middle
+Return the closest element matching a selector up the DOM tree,middle
+Server composer for hapi.js,middle
+Gulp plugin for packaging Electron applications,middle
+Move files and folders to the trash,middle
+Standalone mochawesome report generator. Just add test data.,middle
+HTTP Router,middle
+Estimate one rep maximum lifts in JS using the Epley or Brzycki formulas,bottom
+查询指定 ip 所在地,bottom
+2048 in terminal,bottom
+"Node.js TOTP + HOTP library, with nice utilities for handing 2FA",bottom
+Super simple redirection server,bottom
+47pages Node.js CMS,bottom
+"Given a 1RM, generate a 4 week 5/3/1 cycle",bottom
+A/B testing made easy.,bottom
+Data pool synchronization for Angular,bottom
+BCP47 language negotiation ,bottom
+A NodeJS Module for Dependency Injection,bottom
+,bottom
+THIS REPO HAS BEEN MOVED TO https://github.com/sockethub/sockethub - a simple tool to facilitate handling and referencing activity streams without unecessary verbosity,bottom
+Add temp name to anonymous function for debugging.,bottom
+Amateur Data Interchange Format (ADIF) parser and generator,bottom
+AFINN 96 (list of English words rated for valence) in JSON,bottom
+Collection of async flow control methods.,bottom
+Check CSS for encapsulation and unwanted side-effects,bottom
+The official HSL plugin for alchemist.js,bottom
+Simple node worker that crawls sitemaps in order to keep an algolia index up-to-date,bottom
+Error: 404,bottom
+"Draws a three part date control: month select, day input, year input",bottom
+Sync implementation for Ampersand and Backbone that implements the RFC 6902 json+patch spec on updates.,bottom
+An Ampersand view to display a collection of radio buttons,bottom
+localForage sync adapter for Ampersand.js,bottom
+Generalized way to get an AMQP connection/channel setup.,bottom
+Jump to a specific section smoothly.,bottom
+Bower Publishable Angular Directive Boilerplate,bottom
+Angular directive for validating integer inputs,bottom
+"For now, a simple directive for checking if an input is a full name",bottom
+An angular filter that turns new lines into line breaks. Deprecated.,bottom
+SockJS component for AngularJS,bottom
+A simple boolean text control with undo support,bottom
+Ziptastic ZIP -> City/State lookups for Angular,bottom
+,bottom
+"ANSI graphics parser for node.js.  Output to plain text, HTML, binary, animated GIF, PNG, video, or whatever you want.",bottom
+connect middleware for API Mocking.,bottom
+A simple Facebook RSS widget for Apostrophe. Based on the standard Apostrophe RSS widget.,bottom
+Extended APIs for ArangoJS client library,bottom
+"An U.S. area code lookup tool. U.S. area code data is a relatively small set of data, yet no one wants to maintain it. This library contains area code data that is queryable.",bottom
+"Arpisea is a specification and complete framework implementation for describing, producing, consuming, and visualizing JSON-RPC web services.",bottom
+Polyfill for Array.prototype.fill,bottom
+Array.of  for older browsers and node compat.,bottom
+:persevere: Unofficial ArtStack API wrapper for NodeJS.,bottom
+ArchivesSpace API client in Javascript,bottom
+Fast and efficient sorted arrays in JavaScript with binary search,bottom
+Transform stream that converts ass files to vtt files (html5 video subtitles),bottom
+Test helpers for testing a HTTP interface,bottom
+Parses your markup and replaces the references to external assets with inline code,bottom
+Assesses & extracts references to all the assets in your markup.,bottom
+Front-end assets management for php frameworks,bottom
+Attrition is a simple queue system that uses a mongoDB collection to store jobs,bottom
+Writes given content as an auto generated part to file considering options.,bottom
+Error: 404,bottom
+Record microphone data via getUsermedia automatically based on microphone activity,bottom
+Get media file data using avprobe,bottom
+An API to learn how much your AWS hosting costs every month,bottom
+Get a list of aws instances and their meta data.,bottom
+Add Ember style computed properties to your Backbone.js models,bottom
+Elasticsearch driver for backbone-db,bottom
+backbone-db driver for MongoDB,bottom
+Defining the DOM element of a Backbone view right in the template. Compatible with absolutely everything.,bottom
+"Deep get/set, bindings and computed model attributes for Backbone.",bottom
+API for connecting a tessel to an Adafruit ht16k33 backpack,bottom
+Real-time location & sensor data API for the IoT.  We believe in an open Internet of Things.,bottom
+Core BaseController class to build your basecontroller on.,bottom
+Base CRM client for NodeJS,bottom
+"Advanced batch requests for Hapi with path, query, and payload pipelining",bottom
+Error: 404,bottom
+A pipe to browser utility,bottom
+[deprecated] Small helper for gulp which is used internally at Becklyn,bottom
+JS class for common beer calculations for brewers.,bottom
+,bottom
+Benchmarking various operations in Node.JS,bottom
+Basic AMD support for Bender.js,bottom
+Pack external assets into your html.,bottom
+A node-hid based driver to read actions from the Dream Cheeky Big Red Button,bottom
+"A BIP32 Wallet backed by bitcoinjs-lib, lite on features but heavily tested.",bottom
+What are the Bitbucket IP addresses I should use to configure my corporate firewall?,bottom
+DEPRECATED: this project isn't maintained anymore.,bottom
+📩 The official contact form plugin for Bloggify,bottom
+💡 MiniLightbox plugin for Bloggify sites,bottom
+𝍌 The RSS plugin for Bloggify.,bottom
+Small and lightweight blog engine for node.js,bottom
+"A table of contents (TOC) generator for blog posts in bloggy, a small and lightweight blog engine",bottom
+"RSS plugin for bloggy, a small and lightweight node.js blog engine.",bottom
+Blum is a configuration document generator used to create manifest json files using Confidence.,bottom
+Converts BMFont XML/TXT files to JSON output,bottom
+"Easily wire up models to APIs with supported for complex, nested saving.",bottom
+"A standalone, node.js-based beacon receiver for boomerang.",bottom
+Load a CSON config file,bottom
+Stepping controls for your BPMN 2.0 processes,bottom
+Inversion of control container for Node.js applications,bottom
+OFFICIAL Breeze.js Labs package of extensions and utilities for Breeze.js client apps.,bottom
+RETIRED/DEPRECATED Breeze bower/npm packages. See README.md,bottom
+View (minimal-ui) manager for iOS 8.,bottom
+csssplit plugin for broccoli,bottom
+Add support for lazy lookup in Ember I18n,bottom
+Broccoli adapter for ng-templatecache,bottom
+A broccoli plugin for splitting text into new files.,bottom
+detect PDF support in the browser,bottom
+On-demand browserify bundler middleware for development with watchify support,bottom
+,bottom
+Buffer up data and give it to a transform-like method,bottom
+coffee-script plugin for component-builder2,bottom
+A gulp plugin for using imacss (the image to datauri to CSS transformer).,bottom
+Wrapper around amqplib to make common patterns easier.,bottom
+node library for busylight,bottom
+Scrape titles of articles from buzz feed.,bottom
+Workout log parser,bottom
+Wraps objects with a proxy that caches return values so that resource intensive functions can be called repeatedly at low performance cost.,bottom
+Returns a two-dimensional array representing the days on a calendar,bottom
+Generates a function that is called with initially supplied arguments,bottom
+Wrap a callback in order to time asynchronous operations.,bottom
+Helper to wrap your callbacks,bottom
+Drop-in users system for Cantina apps,bottom
+"(Node.js) A simple wrap of commander.js, plus some tools and examples, in Carcass style.",bottom
+A robust card-dealing JavaScript Class written in TypeScript,bottom
+[MAINTAINERS WANTED] Amazon S3 adapter for catbox,bottom
+"Quickly configure, start, and update AWS CloudFormation stacks.",bottom
+Give your javascript functions a chaining api.,bottom
+Simple micro-services bus,bottom
+Symbols of the chemical elements,bottom
+Save and restore selections in contenteditable areas.,bottom
+The official command line interface for Clever Cloud ,bottom
+":ski: Snow, snow, snow! Let it snow, in terminal!",bottom
+Helper utility for testing isolated cli modules.,bottom
+DEPRECATED – Command line tool for predictable npm-shrinkwrap updates,bottom
+Command-line tool to track project hours,bottom
+Aggregate multiple cadvisor endpoints,bottom
+"A wrapper around the native Node 'cluster' built-in, that provides a convenient interface to start up multiple workers of different roles by configuration",bottom
+Clusterify your NodeJS applications and deploy without downtimes. Just like that.,bottom
+Wrap `EventEmitter` to support `generator` listener.,bottom
+Co wrapper for thrift clients.,bottom
+Chrome DevTools code snippets,bottom
+Better imap api based on visionmedia/co and andris9/inbox,bottom
+A missing command line client for Codewars API,bottom
+Aggregate many event emissions into one,bottom
+"colorzy is a simple tools that adds formatting methods to objects. Most useful with String, I think.",bottom
+Yet another colored console,bottom
+Maps command aliases to real commands based on a mapping.json file.,bottom
+Comparative selection algorithm plugin for d-pac platform,bottom
+Node Module for comparing arrays,bottom
+Profile the language-specific libraries for Complexion,bottom
+Dialog component,bottom
+Remote / AJAX form handling à la Rails UJS,bottom
+🖼 Concatenate images.,bottom
+node-http-proxy plus a REST API,bottom
+Error: 404,bottom
+Node.js client library for confy API,bottom
+A connect middleware to inject weinre script into any page.,bottom
+Error: 404,bottom
+NodeJS client API for Constant Contact API v2 (JSON),bottom
+"Unobtrusive, backwards compatible, syntactic sugar for Design by contract in JavaScript.",bottom
+Create a coreos cluster from node.js,bottom
+🍾 A trustworthy item-processing queue. Never lose data to an error again.,bottom
+See XKCD for reference,bottom
+,bottom
+CouchDb User Account Model ,bottom
+dead-simple command line egg-timer,bottom
+Simple control flow for counting callbacks,bottom
+This project contains reference implementations of Cross-Platform Authentication client library. (ETSI TS 103 407),bottom
+A crawler can use different strategy to different url pattern,bottom
+the node ciphers you always wanted,bottom
+Node.js SDK for Kazoo apis,bottom
+A type-safe state management solution with atomic mutation support.,bottom
+CSS Driven Timing Library for Animations and Transitions,bottom
+A node package for css url versioner,bottom
+join two csvs by a column,bottom
+API testing made easy.,bottom
+WebRTC abstraction layer for cyclon.p2p WebRTC Comms implementation,bottom
+Star plots in d3,bottom
+Data-driven documents.,bottom
+A small node.js module which makes it easy to subscribe to daily comic strips. Default support for Dilbert and XKCD.,bottom
+Node.js SDK for Dailymotion API,bottom
+Módulo node.js para gerar DANFEs em .pdf,bottom
+A simple database sourced from csv file(s),bottom
+Utility to convert aneristic dates to the Discordian calendar,bottom
+A set interval that defer the start of the next delay until the callback is executed.,bottom
+Exceptions define library,bottom
+Delighted API Node Client,bottom
+browserify transform for derequire,bottom
+Try to detect the type of tabular data and stream it as object stream,bottom
+Detect file renames based on the file contents,bottom
+"Deuces, a minimal Redis client based on ♠ Spade, specific for PubSub and Monitor mode. ",bottom
+A simple Node web local server for developments.,bottom
+Simple command line http server for browserify,bottom
+infinite rolling dial,bottom
+A node.js module for recursively reading directory and nested directories paths.,bottom
+efficient dirty checking for templating,bottom
+Multipurpose client for the Backpack Displayer API,bottom
+Pull a docker image from a registry using node,bottom
+Prepares any tarball containing a project so that a docker image can be built from it.,bottom
+Create Dockerfiles from JSON,bottom
+Azure DocoomentDB ORM,bottom
+Doge Decimal Classification,bottom
+a writable stream that replaces the innerHTML of a given dom element on writes.,bottom
+jQuery-like DOM micro-library,bottom
+,bottom
+ignorefile/includefile matching .gitignore spec,bottom
+Dot-path based JavaScript object template compiler.,bottom
+Download email attachments via IMAP,bottom
+A HTTP Protocol Adapter for Droonga,bottom
+Returns a an array of the items in coll starting from the first item for which pred(item) returns null/undefined.,bottom
+Fetch the access token of your Dropbox Platform app from the command line,bottom
+Test double for Dropbox API,bottom
+Digital signature tools.,bottom
+Command-line tool to view the dependency tree of any module. ,bottom
+Loader middleware for dustjs,bottom
+A collection of converter functions to get good old JavaScript key/value objects into a DynamoDB friendly schema and back again.,bottom
+CipherSet 3a for telehash,bottom
+edp bcs command,bottom
+Easy browsing of Open edX Modulestores,bottom
+Node library for Adafruit 8x8 LED Matrix,bottom
+Obfuscates e-mail addresses with x's,bottom
+Plugin for ember-cli-admin that adds multiple languages properties support,bottom
+Ember CLI array slice addon,bottom
+Transpiler your ember-cli .jsx files into js,bottom
+Ember addon for DropKick.js,bottom
+An Ember Addon for PDFJS,bottom
+Control Emic2 TTS module,bottom
+"A lightweight, isomorphic event emitter",bottom
+Browserify tech for ENB,bottom
+y-i18n routines,bottom
+Be compatible with http://engine-light.codeforamerica.org/,bottom
+📺 Retrieve episode information from a filename,bottom
+Epochtalk Forum Software Core Library,bottom
+Streamlined errors with descriptive error messages through metadata and error codes,bottom
+include `#include` extend-script file to standalone executable extend-script,bottom
+Universal Starter Kit to build any javascript ES6 project/library runnable in nodejs and on any browser.,bottom
+ESB nodejs driver,bottom
+A secure distributed event layer for nodejs applications,bottom
+A Node module to assist with pulling data out of an ESRI ArcGIS REST server into GeoJSON.,bottom
+NPM package to write Gnip records to an ArcGIS Feature Service.,bottom
+tap(tape) wrapper for testing adobe extendscript,bottom
+server-side EventSource,bottom
+Developers Excuses,bottom
+A pluggable async cache for Node.JS,bottom
+"Handler for Express 4 application, which allows to perform batch requests.",bottom
+A simple Express middleware to start and stop the server.,bottom
+access logger middleware using fluentd for express.js,bottom
+Express + ORM MVC,bottom
+Add a qrcode image on page on ExpressJS using Google Charts.,bottom
+Logwrangler middleware for express,bottom
+"Extract gettext strings from __('literal') and __n('single', 'plural', n ) functions in any source",bottom
+Dead simple library for functional and reactive programming in JavaScript,bottom
+A fastft posts client for the browser or node.js,bottom
+Fauxton is the new Web UI for CouchDB,bottom
+Slim and simple client for Facebook Graph API v2.* implemented with promises,bottom
+Fritbot Slack Connector,bottom
+FileBufferReader is a JavaScript library reads file and returns chunkified array-buffers. The resulting buffers can be shared using WebRTC data channels or socket.io.,bottom
+Ensures polite outgoing HTTP requests that respects robots.txt and aren't made too close to each other,bottom
+quickly create an in memory index of files and their content,bottom
+指定一组目录，依次搜索指定文件（相对路径），返回其绝对文件路径，支持同步和异步方法,bottom
+,bottom
+File to base64 using FileReader,bottom
+Fist plugin to help to do serial executions,bottom
+JSON Fling is a simple JSON-RPC framework for NodeJS with built-in permissions and support for different transports.,bottom
+Feature flipping and configuration using yaml files.,bottom
+is a visual editor for Dataflow programming,bottom
+Fluent validation for node.js,bottom
+Build React/Flux app that runs seamlessly on both server side and client side,bottom
+AutoBind plugin for Fluxxor to help prevent spaghetti props wiring.,bottom
+Font to vector path tools,bottom
+,bottom
+Light wrapper around Node.js url.format() to make life a little easier,bottom
+Javascript wrapper for FRED (Federal Reserve Economic Database) API,bottom
+Base stream class for FreeLoader modules,bottom
+Fritbot: The Angriest Bot,bottom
+Freeze an Express.js application into a set of static files,bottom
+:strawberry: A Node.JS ORM for both SQL and NoSQL databases,bottom
+Convert javascript state machine to UML diagram,bottom
+Generate RFC conforming strings for an FTP server connection.,bottom
+Find Firefox OS simulators in your Firefox path in NodeJS/CLI,bottom
+Google Async Analytics using LocalStorage,bottom
+frame view for loading UI into a gaffa application,bottom
+,bottom
+,bottom
+A Garðr plugin for Burt,bottom
+Gardr plugin to resize container to content size,bottom
+NodeJS GCM test command line interface to test gcm on your android application,bottom
+A node gitlab-ci-runner,bottom
+Gearman job persistence and delayed execution system,bottom
+A GEDCOM-X Date Library for Javascript,bottom
+npm package for appsngen web widget generator ,bottom
+"Ultra fast fullstack angular generator, using gulp.",bottom
+Yeoman generator for java library,bottom
+Generator for meshblu connectors,bottom
+Yeoman generator for NPM modules,bottom
+"A Yeoman Generator for facebook's React library. It includes gulp, browserify, livereload and famous official Twitter bootstrap Sass version",bottom
+A Yeoman generator to create a readme file,bottom
+Functions to work with JavaScript generators.,bottom
+Yeoman generator for video.js plugins.,bottom
+High performance library for geographical map-related operations,bottom
+Transform a geoJSON MultiPolygon or Polygon into a list of geohashes that form it.,bottom
+,bottom
+Generate a plain-english summary of what is in a GeoJSON file.,bottom
+Get all JS files within a directory. A simple wrapper of node-dir.,bottom
+Yii 1/2 Packages command Node.js wrapper,bottom
+Export Ghost blog entries as Markdown files,bottom
+Render static blog sites from Markdown using Ghost themes,bottom
+A node library to interact with the GitHub users API,bottom
+Gitbook GrViz plugin is used to select from markdown dot and converting it into a picture format svg.,bottom
+GitBook plugin : Transform comments to notes,bottom
+GitBook Dictionary Plugin,bottom
+,bottom
+Piwik plugin for Gitbook,bottom
+NPM module for Github Jobs API,bottom
+Give me a repo I'll give you the languages its written in,bottom
+,bottom
+Git hook to convert your TODOs into Github issues,bottom
+ensure grep-able lines are present in your local .gitignore file,bottom
+Image gallery with mobile/touch support and no dependencies.,bottom
+Stream-based wrapper for the League of Legends API,bottom
+Access http://www.go.cd API via nodeJS,bottom
+GoodsCloud API client in JavaScript for Node.js,bottom
+Create google alerts from node.,bottom
+access bucket data from google cloud storage as a stream from node or on the cli,bottom
+Google Web Fonts downloader,bottom
+Node/Meteor wrapper for googlefonts API.,bottom
+Distributes work to local and/or remote agents,bottom
+,bottom
+,bottom
+Grunt task for generating API documentation pages,bottom
+A Grunt task for generating a static blog,bottom
+Compile Caveman templates using Grunt.,bottom
+Grunt plugin for accessing the CrowdIn.net API,bottom
+Grunt plugin that renames a file with date suffix.,bottom
+Grunt plugin for linting html using vnu.jar,bottom
+:page_with_curl: Reporter tool to create different output formats for reports jscpd.,bottom
+Grunt bookshelf sync task.,bottom
+Grunt wrapper for MetaScript preprocessor,bottom
+Manage the neo4j binary via grunt,bottom
+Create single executable file by grunt,bottom
+Grunt bindings for npm,bottom
+"Plugin for Grunt, which compiles Slm to HTML",bottom
+stylus-base-files is a node module for substituting list of base Stylus files to stylus tasks,bottom
+A template for grunt-contrib-jasmine to permit unit-testing of AMD Dojo code.,bottom
+Grunt plugin for building ThorJS in other patterns,bottom
+Run xUnit tests using Grunt,bottom
+,bottom
+replace refs in .css and .js file to cdn powered links,bottom
+Gulp coverage reporting for Node.js that is independent of the test runner,bottom
+Compile doTjs with gulp (gulpjs.com),bottom
+Transpile ES6 modules to CommonJS with es6-module-jstransform.,bottom
+Turn code examples into testcases.,bottom
+Configurable dynamic install framework Bower dependencies,bottom
+Gulp plugin for the Haskell to JS compiler,bottom
+Mock plugin base on gulp.,bottom
+perforce plugin for gulp,bottom
+Provide connect-server functionality,bottom
+Gulp plugin to log number of source lines of code,bottom
+Define a build asset to use in an HTML comment block.,bottom
+Dragables extension for Hammer.js,bottom
+"Make promise to have support for callback API, it returns promise in that same time.",bottom
+Generator based handlebars style streaming templates.,bottom
+Transform Bookshelf errors into proper Boom HTTP error responses,bottom
+Convert hapi boom errors into jsend responses,bottom
+Hapi Bearer and JWT Authentication ,bottom
+[DEPRECATED] Hapi.js plugin to validate multipart/form-data file contents,bottom
+Hapi plugin for passing monit health checks,bottom
+,bottom
+Hapi route directory ,bottom
+Simplify your DFP business logic.,bottom
+"Deep-search objects for keys in JavaScript objects. Keys can be searched by providing an array of keys, or using a dot-notiation.",bottom
+NodeJS Express API Library that auto documents itself and provides additional validation,bottom
+Haml-like syntax transpiler for Ember HTMLBars templates,bottom
+openssl Heartbleed bug(CVE-2014-0160) check for Node.js ,bottom
+proxy middleware to the Heroku API for express,bottom
+A library for generating vector paths for drawing the Hershey single-line font,bottom
+miliseconds from frequency (1000/n),bottom
+:recycle: Migrate your posts from Joomla to Hexo,bottom
+Haml renderer for Hexo.,bottom
+A really simple project scaffolding tool,bottom
+html 5 tokenizer,bottom
+Encode any IP address as a haiku,bottom
+Http Mock Tool,bottom
+Hogan template adapter for Brisket,bottom
+Error: 404,bottom
+Memory restricted hot path cache,bottom
+Pluggable HTML Pipeline,bottom
+Knockout Templates for Node.js,bottom
+,bottom
+Build HTTP request message from an object model,bottom
+Wrapped `verror` with HTTP status code for Express.js,bottom
+Bytes to Human bytes ,bottom
+Utility for using SVG images as icons on the web with pure CSS and/or DOM injection,bottom
+ifconfig text parser,bottom
+,bottom
+Bidirectional method calls API between external and iframed code.,bottom
+ify's stuff,bottom
+Image Manipulation within browser,bottom
+A React component for responsive images in desktop and mobile browsers. Featuring Imager.js.,bottom
+"Node.js based image server with type validation, image resizing, file cache, Uniform Resource Identifier generation and also support https.",bottom
+"IMAP Server, NodeJS (based on https://github.com/andris9/hoodiecrow). As a better solution, please, see on https://github.com/wildduck-email/wildduck",bottom
+Promisified googleapis with easy access to jwt tokens,bottom
+Mock IndexedDB database for testing,bottom
+Infer a name from an email address,bottom
+Injectify marionette view into Handlebars template,bottom
+This is an in memory store used by innkeeper,bottom
+Faster npm installs via caching whole node_module dir,bottom
+ioBroker controller,bottom
+"Create all required icons from one icon. Right size, right file name.",bottom
+"Generate all required splash screen images from one source. Right size, right file name.",bottom
+Open input and output streams given providers and small config,bottom
+ipod,bottom
+[DEPRECATED] Purple isn't real,bottom
+Check if it's a ES keyword.,bottom
+Determine if a host is a localhost,bottom
+Check whether a value is a writable stream,bottom
+Error: 404,bottom
+test if something is an es6 module,bottom
+An HTTP request library that enables isomorphic applications.,bottom
+issue tracking in hand,bottom
+itbit API client for node.js,bottom
+This module supplies mutual IVS conversion between Adobe-Japan and Hanyo-denshi(Moji_Joho),bottom
+"A Plugin for Jasmine, to enable jsonpath(http://goessner.net/articles/JsonPath/) in matchers",bottom
+A set of matchers to assert a spy was called n times,bottom
+Create Jekyll Front Matter from single markdown contents.,bottom
+Jenny tells a remote server whats happening with your MySensors connected via a serial port,bottom
+A Browserify transform for Jison parsers.,bottom
+SQL-like queries on JSON files,bottom
+Generate a Joi schema from some JSON or a JS object,bottom
+Simple and fast number input masks,bottom
+Plugable Node.js job queue based on the Beanstalk Job Lifecycle,bottom
+Reusable JS abstractions,bottom
+A very easy-to-use web scrapper,bottom
+A delta debugger for JavaScript,bottom
+Tool to auto document ECMAScript (Java Script) in JSDoc 3 using Esprima.js.,bottom
+A reporter for gulp-jshint which produces a report compatible with Atlassian Bamboo Mocha Test Parser,bottom
+levelup's createReadStream for a dir of json files,bottom
+Define REST client easily in nodejs,bottom
+An AngularJS directive for rendering JSON Schema in HTML,bottom
+Data silo for digital twins in context-aware physical spaces.  We believe in an open Internet of Things.,bottom
+Use JSON to list all elements (with css 3 and jquery selector) that you want to crawl.,bottom
+JSOS reusable utilities with minimal dependencies.,bottom
+run bash scripts when you get a push event from a github webhook,bottom
+JXT definitions for Atom posts,bottom
+A humane service status API module to expose any operational/internals of any Node.js based microservice. JSON format over HTTP protocol.,bottom
+A quick an dirty karma reporter that integrates with bamboo via https://marketplace.atlassian.com/plugins/com.atlassian.bamboo.plugins.bamboo-nodejs-plugin,bottom
+chai-factories plugin for karma,bottom
+chai-js-factories plugin for karma,bottom
+A gzip preprocessor and plugin for Karma,bottom
+Cucumber like api for BDD styles tests using jasmine and cucumber,bottom
+A Karma plugin. Compile Lo-Dash templates on the fly.,bottom
+Scans HTML-based server side template files for AngularJS templates and converts them to JS for use in unit tests,bottom
+Nunjucks for Karma,bottom
+Multi-Suite runner plugin for Karma,bottom
+"Ketch helps you execute, one way or another",bottom
+Remaps a values from an object to specified keys,bottom
+Define states with values and kimi will drive between the states,bottom
+"create a periodical .mobi, with kindlegen",bottom
+HTTP/2 static server,bottom
+JavaScript Numeric Math Utilities,bottom
+Knuth Morris Pratt algroithm in js,bottom
+"A schema builder module for knex.js, handles schema initialization and migration",bottom
+else/elseif for Knockout,bottom
+A decentralized Nodejs workflow tool used to manage software on any server.,bottom
+Koa middleware for barista routing component,bottom
+Nunjunks rendering middleware for koa,bottom
+😈 Kill processes occupying a given port,bottom
+Functionally handle promises,bottom
+Automatically execute a file in a known programming language using node,bottom
+Automatically spawns a file in a known programming language using node,bottom
+Execute a file in any programming language using node,bottom
+Spawn a file process in any programming language using node,bottom
+bootstrap lark by pm2,bottom
+lark.js log module ,bottom
+router for lark,bottom
+lark views module,bottom
+A step by step guide to building your own internet controllable laser turret and cat dazzler...,bottom
+A (very) simple latex file watcher to auto-compile tex files.,bottom
+:open_file_folder: A minimalist module for loading API resources when they are used.,bottom
+lcd i2c interface for nodejs on raspberry pi,bottom
+A Leaflet Plugin that renders Mapbox Vector Tiles on HTML5 Canvas.,bottom
+Display arbitrary GeoJSON on a map with a timeline slider and play button,bottom
+Example LED fonts to be used with https://github.com/marionebl/led-canvas.,bottom
+client cmd of lego,bottom
+对注册的一系列express路由进行排序，避免冲突,bottom
+Method chaining for the canvas 2d api,bottom
+Arduino boards leo build platform.,bottom
+The module to init LESS-compilation,bottom
+"Simple stream interface for node-less, supporting sourcemaps and global/modify vars",bottom
+LevelUP with some useful plugins and wrapped to get a leveldb database up and started quickly.,bottom
+Read random levelup values,bottom
+:bar_chart::zzz: A REST adapter for LevelUP,bottom
+,bottom
+generate a opensouce license with interactive dialog,bottom
+Get line length of a string,bottom
+"Node.js ""require"" your local config file easily from anywhere in your project without having to navigate directories.",bottom
+Simple logger that add some colors to node's default console,bottom
+Retrieve logs from logentries.com. Unofficial.,bottom
+Logging lib for node,bottom
+Loglog server data source for mongodb,bottom
+Simple API for getting metadata from locally installed npm packages (in `node_modules`).,bottom
+Kafka connector for loopback-datasource-juggler.,bottom
+cluster aware lru-cache for node,bottom
+Filesystem utils,bottom
+"This node module downloads a m3u8 playlist into a specified local directory, with all its media segments",bottom
+🐟 M4 macro processor in pure Javascript,bottom
