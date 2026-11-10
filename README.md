@@ -113,25 +113,34 @@ Statistical significance across popularity tiers is evaluated using the **Kruska
 
 ## Repository Structure
 
+Files are grouped by research question. Run the notebooks and scripts from the repository root.
+
 ```
 .
-├── description_fetcher.ipynb      # Collect GitHub repository descriptions
-├── RQ_code.ipynb                  # Generate descriptions and compute metrics
-├── lib_list.csv                   # Final 1,450 libraries: name, tier, human description, human GFI
-├── dataset/
-│   ├── Ori_lib_list.csv           # Original 1,500 libraries with descriptions
-│   └── {top,middle,bottom}_lib.csv  # Repository URLs and number of dependents per tier
-├── RQ1_similarity/
-│   ├── {0,0.2,0.4}_Similarity.csv     # Per-library cosine similarity (mean/std/median over 5 runs)
+├── description_fetcher.ipynb        # Collect GitHub repository descriptions
+├── RQ_code.ipynb                    # Generate descriptions and compute metrics for RQ1 and RQ2
+├── data/                            # Shared inputs
+│   ├── {top,middle,bottom}_lib.csv  # Repository URLs and number of dependents per tier
+│   ├── Ori_lib_list.csv             # Original 1,500 libraries with descriptions
+│   └── lib_list.csv                 # Final 1,450 libraries: name, tier, human description, human GFI
+├── rq1/                             # RQ1: semantic similarity and length
+│   ├── {0,0.2,0.4}_Similarity.csv   # Per-library cosine similarity (mean/std/median over 5 runs)
 │   ├── Average_Word_Count_Difference.csv
 │   ├── summary_Mean_Evaluate.csv
-│   ├── RQ1_result_Sim.png             # Cosine similarity by tier and temperature
-│   └── word_count_difference.png      # Word-count difference by tier and temperature
-├── RQ2_readability/
-│   ├── {0,0.2,0.4}_description_RQ2.csv  # All 7,250 generated descriptions per temperature, with cosine and GFI
-│   └── RQ2_result_GF.png                # GFI difference (generated - human) by tier and temperature
-└── analysis/                      # Statistical re-analysis and manual analysis (see below)
+│   ├── RQ1_result_Sim.png           # Cosine similarity by tier and temperature
+│   ├── word_count_difference.png    # Word-count difference by tier and temperature
+│   └── manual_analysis/
+│       └── sample30_labeled.csv     # 30-library manual analysis with labels
+├── rq2/                             # RQ2: readability
+│   ├── {0,0.2,0.4}_description_RQ2.csv  # All generated descriptions (5 runs x 1,450 libraries) with cosine and GFI
+│   ├── plot_gfi_difference.py       # Draws RQ2_result_GF.png
+│   └── RQ2_result_GF.png            # GFI difference (generated - human) by tier and temperature
+└── analysis/                        # Statistical tests for both RQs
+    ├── analysis.py
+    └── results.json
 ```
+
+The generated descriptions are stored once, in `rq2/`, and are also the input for the RQ1 similarity files.
 
 ---
 
@@ -197,16 +206,16 @@ The notebook:
 
 ---
 
-## Revision Analysis (`analysis/`)
+## Revision Analysis
 
-Scripts and outputs added for the revised paper. They run on the files in this repository.
+Scripts and outputs added for the revised paper. Run them from the repository root.
 
 ```bash
 python analysis/analysis.py . analysis > analysis/results.json
-python analysis/fig4.py analysis/per_library.csv RQ2_readability/RQ2_result_GF.png
+python rq2/plot_gfi_difference.py analysis/per_library.csv rq2/RQ2_result_GF.png
 ```
 
-* `analysis.py`: dataset statistics, Kruskal-Wallis with Dunn post-hoc tests (Holm) and effect sizes (epsilon squared, Cliff's delta), Friedman tests for temperature, Wilcoxon signed-rank tests for generated vs. human descriptions, and the GFI sensitivity analysis. Writes `per_library.csv` (per-library scores averaged over the five runs).
-* `results.json`: all statistics reported in the paper.
-* `fig4.py`: draws the GFI-difference figure.
-* `sample30_labeled.csv`: the manual-analysis sample (10 libraries per tier, random seed 42, T = 0.0, run 1) with labels C = correct, P = partially correct, W = hallucinated. The labels were assigned by a single rater.
+* `analysis/analysis.py`: dataset statistics, Kruskal-Wallis with Dunn post-hoc tests (Holm) and effect sizes (epsilon squared, Cliff's delta), Friedman tests for temperature, Wilcoxon signed-rank tests for generated vs. human descriptions, and the GFI sensitivity analysis. Writes `analysis/per_library.csv` (per-library scores averaged over the five runs, not tracked).
+* `analysis/results.json`: all statistics reported in the paper.
+* `rq2/plot_gfi_difference.py`: draws the GFI-difference figure.
+* `rq1/manual_analysis/sample30_labeled.csv`: the manual-analysis sample (10 libraries per tier, random seed 42, T = 0.0, run 1) with labels C = correct, P = partially correct, W = hallucinated. The labels were assigned by a single rater.

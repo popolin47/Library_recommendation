@@ -4,7 +4,7 @@ import numpy as np, pandas as pd
 from scipy import stats
 import scikit_posthocs as sp
 
-D = sys.argv[1]  # data dir
+D = sys.argv[1]  # repository root
 TIERS = ['top', 'middle', 'bottom']
 TEMPS = {'0': 0.0, '0.2': 0.2, '0.4': 0.4}
 out = {}
@@ -32,12 +32,12 @@ def kw(df, val, group='tier'):
                 medians={t: round(float(np.median(x)), 3) for t, x in zip(TIERS, g)},
                 means={t: round(float(np.mean(x)), 3) for t, x in zip(TIERS, g)}, pairs=pairs)
 
-human = pd.read_csv(f'{D}/lib_list.csv').rename(columns={'source': 'tier', 'fog_index': 'gfi_h'})
+human = pd.read_csv(f'{D}/data/lib_list.csv').rename(columns={'source': 'tier', 'fog_index': 'gfi_h'})
 human['wc_h'] = human.description.fillna('').str.split().str.len()
 
 runs = []
 for k, t in TEMPS.items():
-    r = pd.read_csv(f'{D}/RQ2_readability/{k}_description_RQ2.csv')
+    r = pd.read_csv(f'{D}/rq2/{k}_description_RQ2.csv')
     r['T'] = t
     runs.append(r)
 runs = pd.concat(runs).rename(columns={'Library': 'library', 'Popularity': 'tier'})
@@ -53,9 +53,9 @@ assert lib.gfi_h.notna().all(), 'unmatched human rows'
 
 # ---- dataset statistics
 dep = []
-ori = pd.read_csv(f'{D}/dataset/Ori_lib_list.csv')
+ori = pd.read_csv(f'{D}/data/Ori_lib_list.csv')
 for t in TIERS:
-    x = pd.read_csv(f'{D}/dataset/{t}_lib.csv')
+    x = pd.read_csv(f'{D}/data/{t}_lib.csv')
     x['tier'] = t
     dep.append(x)
 dep = pd.concat(dep)
