@@ -115,13 +115,22 @@ Statistical significance across popularity tiers is evaluated using the **Kruska
 
 ```
 .
-├── github_description_fetcher.ipynb   # Collect GitHub repository descriptions
-├── RQ12.ipynb                         # Generate descriptions and evaluate results
-├── data/
-│   ├── lib_name.csv
-│   ├── github_descriptions.csv
-│   └── ...
-└── README.md
+├── description_fetcher.ipynb      # Collect GitHub repository descriptions
+├── RQ_code.ipynb                  # Generate descriptions and compute metrics
+├── lib_list.csv                   # Final 1,450 libraries: name, tier, human description, human GFI
+├── dataset/
+│   ├── Ori_lib_list.csv           # Original 1,500 libraries with descriptions
+│   └── {top,middle,bottom}_lib.csv  # Repository URLs and number of dependents per tier
+├── RQ1_similarity/
+│   ├── {0,0.2,0.4}_Similarity.csv     # Per-library cosine similarity (mean/std/median over 5 runs)
+│   ├── Average_Word_Count_Difference.csv
+│   ├── summary_Mean_Evaluate.csv
+│   ├── RQ1_result_Sim.png             # Cosine similarity by tier and temperature
+│   └── word_count_difference.png      # Word-count difference by tier and temperature
+├── RQ2_readability/
+│   ├── {0,0.2,0.4}_description_RQ2.csv  # All 7,250 generated descriptions per temperature, with cosine and GFI
+│   └── RQ2_result_GF.png                # GFI difference (generated - human) by tier and temperature
+└── analysis/                      # Statistical re-analysis and manual analysis (see below)
 ```
 
 ---
@@ -131,7 +140,7 @@ Statistical significance across popularity tiers is evaluated using the **Kruska
 Install the required packages:
 
 ```bash
-pip install openai pandas sentence-transformers scikit-learn python-dotenv
+pip install openai pandas sentence-transformers scikit-learn python-dotenv textstat scipy scikit-posthocs matplotlib
 ```
 
 Create a `.env` file:
@@ -147,13 +156,13 @@ OPENAI_API_KEY=your_api_key_here
 1. Fetch GitHub repository descriptions:
 
 ```text
-github_description_fetcher.ipynb
+description_fetcher.ipynb
 ```
 
 2. Run the experiments:
 
 ```text
-RQ12.ipynb
+RQ_code.ipynb
 ```
 
 The notebook:
@@ -171,13 +180,33 @@ The notebook:
 
 ### RQ1
 
-* Library popularity has a stronger influence on semantic alignment than temperature.
-* Middle-tier libraries achieve the highest semantic similarity.
-* Temperature has only a small effect on generated content.
+* Temperature (0.0, 0.2, 0.4) has no measurable effect on semantic alignment (Friedman test, p >= 0.12 in every tier, Kendall's W < 0.005).
+* Popularity has a significant but small effect (Kruskal-Wallis p < 0.001, epsilon squared = 0.019). Bottom-tier (rarely used) libraries receive the least aligned descriptions (mean cosine 0.56 vs. 0.62 Middle and 0.61 Top). The Middle vs. Top difference is negligible (Cliff's delta about 0.10).
+* Generated descriptions are about 25 words longer than the human-written ones. The increase is largest for Top-tier libraries.
 
 ### RQ2
 
-* AI-generated descriptions are generally longer than the original GitHub descriptions.
-* Generated descriptions are also more linguistically complex according to the Gunning Fog Index.
-* Readability varies across popularity tiers but remains relatively stable across temperature settings.
+* Generated descriptions are harder to read than human-written ones: median Gunning Fog Index 16.6 vs. 10.0, a median per-library difference of about +6 points, higher for 83% of libraries.
+* The gap is largest for Bottom-tier libraries. Temperature has no effect.
+* The result holds when human descriptions with fewer than five words are excluded.
 
+### Manual analysis
+
+* In a stratified sample of 30 libraries, 24 generated descriptions were correct, 2 partially correct and 4 hallucinated (Bottom 3/10, Middle 1/10, Top 0/10).
+* Cosine similarity is informative on average but unreliable for individual descriptions.
+
+---
+
+## Revision Analysis (`analysis/`)
+
+Scripts and outputs added for the revised paper. They run on the files in this repository.
+
+```bash
+python analysis/analysis.py . analysis > analysis/results.json
+python analysis/fig4.py analysis/per_library.csv RQ2_readability/RQ2_result_GF.png
+```
+
+* `analysis.py`: dataset statistics, Kruskal-Wallis with Dunn post-hoc tests (Holm) and effect sizes (epsilon squared, Cliff's delta), Friedman tests for temperature, Wilcoxon signed-rank tests for generated vs. human descriptions, and the GFI sensitivity analysis. Writes `per_library.csv` (per-library scores averaged over the five runs).
+* `results.json`: all statistics reported in the paper.
+* `fig4.py`: draws the GFI-difference figure.
+* `sample30_labeled.csv`: the manual-analysis sample (10 libraries per tier, random seed 42, T = 0.0, run 1) with labels C = correct, P = partially correct, W = hallucinated. The labels were assigned by a single rater.
