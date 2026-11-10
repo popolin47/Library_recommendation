@@ -1,8 +1,28 @@
-# Using GenAI for JavaScript Library Description Generation
+# Generating npm Library Descriptions from Package Names with LLMs: An Empirical Study
 
 This repository contains the replication package for our study on whether Large Language Models (LLMs) can infer the purpose of JavaScript libraries from their names alone.
 
 The study evaluates **OpenAI GPT-5.4-mini** on generating concise descriptions for npm libraries without providing source code, README files, or usage examples. The generated descriptions are compared with the official GitHub repository descriptions using semantic similarity and readability metrics.
+
+## Paper
+
+This is the replication package of the following paper, accepted at the [13th International Workshop on Quantitative Approaches to Software Quality (QuASoQ 2026)](https://quasoq2026.swc-rwth.de/), co-located with APSEC 2026, Bali, Indonesia, December 7, 2026:
+
+> Praewa Chan-On, Olivier Nourry, Morakot Choetkiertikul, Chaiyong Ragkhitwetsagul, Raula Gaikovina Kula, and Yoshiki Higo. **Generating npm Library Descriptions from Package Names with LLMs: An Empirical Study.** In *QuASoQ 2026: 13th International Workshop on Quantitative Approaches to Software Quality*, CEUR Workshop Proceedings, 2026. (To appear.)
+
+If you use this replication package, please cite:
+
+```bibtex
+@inproceedings{chanon2026generating,
+  title     = {Generating npm Library Descriptions from Package Names with {LLMs}: An Empirical Study},
+  author    = {Chan-On, Praewa and Nourry, Olivier and Choetkiertikul, Morakot and Ragkhitwetsagul, Chaiyong and Kula, Raula Gaikovina and Higo, Yoshiki},
+  booktitle = {QuASoQ 2026: 13th International Workshop on Quantitative Approaches to Software Quality},
+  series    = {CEUR Workshop Proceedings},
+  address   = {Bali, Indonesia},
+  year      = {2026},
+  note      = {To appear}
+}
+```
 
 ---
 
