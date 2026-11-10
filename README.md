@@ -218,4 +218,4 @@ python rq2/plot_gfi_difference.py analysis/per_library.csv rq2/RQ2_result_GF.png
 * `analysis/analysis.py`: dataset statistics, Kruskal-Wallis with Dunn post-hoc tests (Holm) and effect sizes (epsilon squared, Cliff's delta), Friedman tests for temperature, Wilcoxon signed-rank tests for generated vs. human descriptions, and the GFI sensitivity analysis. Writes `analysis/per_library.csv` (per-library scores averaged over the five runs, not tracked).
 * `analysis/results.json`: all statistics reported in the paper.
 * `rq2/plot_gfi_difference.py`: draws the GFI-difference figure.
-* `rq1/manual_analysis/sample30_labeled.csv`: the manual-analysis sample (10 libraries per tier, random seed 42, T = 0.0, run 1) with labels C = correct, P = partially correct, W = hallucinated. The labels were assigned by a single rater.
+* `rq1/manual_analysis/sample30_labeled.csv`: the manual-analysis sample (10 libraries per tier, random seed 42, T = 0.0, run 1) with labels C = correct, P = partially correct, W = hallucinated. The labels were assigned by one rater and confirmed by a second reviewer (no inter-rater agreement was computed).
